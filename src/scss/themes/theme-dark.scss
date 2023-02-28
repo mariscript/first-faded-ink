@@ -1,0 +1,151 @@
+body[data-theme="dark"] {
+  @import "../src/scss/dark-slider.scss";
+
+  .slider-tab {
+    background-color: #c1b599;
+  }
+
+  .title-styles {
+    color: white;
+  }
+
+  .header-icon {
+    color: #d9f9f3;
+    opacity: 0.8;
+  }
+
+  .slider-image {
+    border: 5px solid #c1b599;
+  }
+
+  .link-href {
+    color: white;
+  }
+
+  .project-date {
+    background-color: #00332a;
+    color: white;
+  }
+
+  .dark-burger {
+    color: #968d76;
+  }
+
+  header {
+    background-color: #001612;
+    h1 {
+      color: #968d76;
+    }
+  }
+
+  #about {
+    background-color: #264641;
+    h1 span {
+      color: #ccdad8;
+    }
+    .polaroid span {
+      background: #e7dfcc;
+    }
+    .card {
+      background: #968d76;
+      color: #fbf9f6;
+    }
+  }
+
+  #portfolio {
+    z-index: 2;
+    background: #001612;
+    .section-title {
+      color: #ccdad8 !important;
+    }
+    .foto div {
+      background: #e7dfcc;
+    }
+    .project-title-settings {
+      color: #001612;
+    }
+  }
+
+  #resume {
+    filter: brightness(80%);
+    background: #001612;
+    .section-title {
+      color: #ccdad8 !important;
+    }
+
+    .experience-badge {
+      background: #aca188 !important;
+      color: #fff;
+    }
+
+    .main-badge {
+      background: #00332a !important;
+      color: #fff;
+    }
+
+    .vertical-timeline-element-date {
+      color: #ccdad8;
+    }
+
+    .vertical-timeline-element-icon {
+      background: #264641 !important;
+    }
+    @media only screen and (max-width: 1169px) {
+      .vertical-timeline-element-date {
+        color: black;
+      }
+    }
+  }
+
+  #resume-box {
+    background: #4c8076;
+  }
+
+  .modal-inside .modal-content {
+    background: #264641;
+    color: white;
+  }
+
+  .close-icon {
+    color: white;
+  }
+
+  #contact {
+    background: #264641;
+  }
+
+  .dark-button {
+    border: 2px solid #ccdad8;
+  }
+
+  footer {
+    background: #001612;
+  }
+
+  #skills {
+    background: #264641;
+    .section-title {
+      color: #ccdad8;
+    }
+  }
+
+  .skills-tile {
+    background-color: transparentize(#ffffff, 0.95);
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    margin: 5px 0 5px 0;
+    border-radius: 8px;
+  }
+
+  .resume-button {
+    background-color: #004a3c;
+    color: #99b6b1;
+  }
+
+  .resume-button:hover {
+    background-color: #66928a;
+    border-style: solid;
+    border-color: #326e62;
+    color: #ffff;
+  }
+}
