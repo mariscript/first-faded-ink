@@ -38,7 +38,6 @@ class Projects extends Component {
                       position: "relative",
                     }}
                   />
-                  <span className="project-date">{projects.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}

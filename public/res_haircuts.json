@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "description_header": "Getting Faded?",
+    "description": "We are Faded, Ink. - a unique business that combines the art of tattoos and haircuts under one roof. We believe that self-expression is a beautiful thing, and we're here to help you express yourself through your hair and body art.  We're an exclusive, referral-only establishment. That means we're so confident in the quality of our work that we let our clients do the talking for us. If you're referred by one of our satisfied customers, you'll know you're in good hands.",
+    "section_name": {
+      "about": "Faded, Ink.",
+      "projects": "Projects",
+      "services": "Services",
+      "calendar": "Calendar",
+      "contact": "Contact Us"
+    },
+    "image": "myProfile.jpg"
+  },
+  "projects": [
+    {
+      "title": "Joseph",
+      "startDate": "2020",
+      "description": "Joe is a barber and a photographer.",
+      "images": ["images/portfolio/joe/p1.jpg", "images/portfolio/joe/p2.jpg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-handlebars-plain",
+          "name": "Barber"
+        },
+        {
+          "class": "fas fa-camera-retro",
+          "name": "Photographer"
+        }
+      ]
+    },
+    {
+      "title": "Jhon",
+      "startDate": "2018",
+      "description": "Jhon is a full time barber and a part time tattoo artist.",
+      "images": [
+        "images/portfolio/jhon/p1.jpg",
+        "images/portfolio/jhon/p2.jpg"
+      ],
+      "url": "https://www.instagram.com/fadedinknj",
+      "technologies": [
+        {
+          "class": "devicon-handlebars-plain",
+          "name": "Barber"
+        },
+        {
+          "class": "fas fa-pen-fancy",
+          "name": "Tattoos"
+        }
+      ]
+    },
+    {
+      "title": "Bryan",
+      "startDate": "2015",
+      "description": "Bryan is both a tattoo artist and a barber",
+      "images": [
+        "images/portfolio/bryan/p1.jpg",
+        "images/portfolio/bryan/p2.jpg"
+      ],
+      "url": "https://www.instagram.com/dizon.tattoo",
+      "technologies": [
+        {
+          "class": "devicon-handlebars-plain",
+          "name": "Barber"
+        },
+        {
+          "class": "fas fa-pen-fancy",
+          "name": "Tattoos"
+        }
+      ]
+    }
+  ],
+  "calendar": [
+    {
+      "company": "",
+      "title": "Days Available",
+      "years": "",
+      "icon": "fas fa-calendar-day",
+      "mainTech": ["March 2023"],
+      "technologies": ["March 11", "March 12"]
+    },
+    {
+      "company": "",
+      "title": "Days Available",
+      "icon": "fas fa-calendar-day",
+      "years": "",
+      "mainTech": ["April 2023"],
+      "technologies": ["April 1", "April 2"]
+    }
+  ]
+}

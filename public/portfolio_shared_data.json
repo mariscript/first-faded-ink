@@ -1,27 +1,22 @@
 {
   "basic_info": {
-    "name": "Davina Griss",
-    "titles": [
-      "Front-end Developer",
-      "Senior Data Engineer",
-      "Dev Team lead",
-      "Mobile App Developer"
-    ],
+    "name": "Faded, Ink.",
+    "titles": ["Choose Your Fate:", "Haircuts", "Tattoos"],
     "social": [
       {
-        "name": "github",
-        "url": "https://github.com",
-        "class": "fab fa-github"
+        "name": "instagram",
+        "url": "https://www.instagram.com/fadedinknj",
+        "class": "fab fa-instagram"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "mail",
+        "url": "mailto:fadedinknj@gmail.com",
+        "class": "fas fa-envelope"
       }
     ],
     "image": "myProfile.jpg"
   },
-  "skills": {
+  "services": {
     "icons": [
       {
         "name": "HTML 5",

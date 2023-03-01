@@ -1,20 +1,23 @@
 import React, { Component } from "react";
 
-class Skills extends Component {
+class Services extends Component {
   render() {
-    if (this.props.sharedSkills && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.skills;
-      var skills = this.props.sharedSkills.icons.map(function (skills, i) {
+    if (this.props.sharedServices && this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.services;
+      var services = this.props.sharedServices.icons.map(function (
+        services,
+        i
+      ) {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
+                <i className={services.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center"
                     style={{ fontSize: "30%", marginTop: "4px" }}
                   >
-                    {skills.name}
+                    {services.name}
                   </p>
                 </i>
               </div>
@@ -25,7 +28,7 @@ class Skills extends Component {
     }
 
     return (
-      <section id="skills">
+      <section id="services">
         <div className="col-md-12">
           <div className="col-md-12">
             <h1 className="section-title">
@@ -33,7 +36,7 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <ul className="list-inline mx-auto skill-icon">{services}</ul>
           </div>
         </div>
       </section>
@@ -41,4 +44,4 @@ class Skills extends Component {
   }
 }
 
-export default Skills;
+export default Services;

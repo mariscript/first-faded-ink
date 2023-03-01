@@ -6,10 +6,10 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 
-class Experience extends Component {
+class Calendar extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
+      var sectionName = this.props.resumeBasicInfo.section_name.calendar;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
@@ -33,7 +33,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#424242",
               color: "#fff",
               textAlign: "center",
             }}
@@ -63,7 +63,7 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="pb-5">
+      <section id="calendar" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
@@ -78,7 +78,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#424242",
                 color: "#fff",
                 textAlign: "center",
               }}
@@ -93,4 +93,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Calendar;

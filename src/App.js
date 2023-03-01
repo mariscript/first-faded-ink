@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
+import Nav from "./components/Nav";
 import Header from "./components/Header";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Experience from "./components/Experience";
+import Calendar from "./components/Calendar";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Services from "./components/Services";
 
 class App extends Component {
   constructor(props) {
@@ -22,17 +24,17 @@ class App extends Component {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+      document.documentElement.lang === window.$haircuts
+        ? `res_haircuts.json`
+        : `res_tattoos.json`;
     this.loadResumeFromPath(resumePath);
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
+      oppositeLangIconId === window.$haircutsIconId
+        ? window.$tattoosIconId
+        : window.$haircutsIconId;
     document
       .getElementById(oppositeLangIconId)
       .removeAttribute("filter", "brightness(40%)");
@@ -43,10 +45,7 @@ class App extends Component {
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.applyPickedLanguage(window.$haircuts, window.$tattoosIconId);
   }
 
   loadResumeFromPath(path) {
@@ -81,38 +80,33 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Nav />
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
+              this.applyPickedLanguage(window.$haircuts, window.$tattoosIconId)
             }
             style={{ display: "inline" }}
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-scissors"
               data-inline="false"
-              id={window.$primaryLanguageIconId}
+              id={window.$haircutsIconId}
             ></span>
           </div>
           <div
             onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
+              this.applyPickedLanguage(window.$tattoos, window.$haircutsIconId)
             }
             style={{ display: "inline" }}
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-fountain-pen"
               data-inline="false"
-              id={window.$secondaryLanguageIconId}
+              id={window.$tattoosIconId}
             ></span>
           </div>
         </div>
@@ -124,14 +118,15 @@ class App extends Component {
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
+        <Services
+          sharedServices={this.state.sharedData.services}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
+        <Calendar
+          resumeExperience={this.state.resumeData.calendar}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <Contact />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
