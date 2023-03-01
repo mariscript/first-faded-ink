@@ -17,6 +17,12 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
+          <img
+            src={require("../images/logo.jpg")}
+            width="250px"
+            alt="Logo"
+            className="mt-5"
+          />
           <div className="social-links">{networks}</div>
 
           <div className="copyright py-4 text-center">

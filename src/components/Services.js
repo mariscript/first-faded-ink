@@ -1,32 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Services extends Component {
-  render() {
-    if (this.props.sharedServices && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.services;
-      var services = this.props.sharedServices.icons.map(function (
-        services,
-        i
-      ) {
-        return (
-          <li className="list-inline-item mx-3" key={i}>
-            <span>
-              <div className="text-center skills-tile">
-                <i className={services.class} style={{ fontSize: "220%" }}>
-                  <p
-                    className="text-center"
-                    style={{ fontSize: "30%", marginTop: "4px" }}
-                  >
-                    {services.name}
-                  </p>
-                </i>
-              </div>
-            </span>
-          </li>
-        );
-      });
-    }
-
+const Services = ({ sharedServices, resumeBasicInfo }) => {
+  if (sharedServices && resumeBasicInfo) {
+    const sectionName = resumeBasicInfo.section_name.services;
+    const services = sharedServices.icons.map((service, i) => (
+      <li className="list-inline-item mx-3" key={i}>
+        <span>
+          <div className="text-center skills-tile">
+            <i className={service.class} style={{ fontSize: "220%" }}>
+              <p
+                className="text-center"
+                style={{ fontSize: "30%", marginTop: "4px" }}
+              >
+                {service.name}
+              </p>
+            </i>
+          </div>
+        </span>
+      </li>
+    ));
     return (
       <section id="services">
         <div className="col-md-12">
@@ -41,7 +33,9 @@ class Services extends Component {
         </div>
       </section>
     );
+  } else {
+    return null;
   }
-}
+};
 
 export default Services;

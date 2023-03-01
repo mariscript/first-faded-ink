@@ -255,7 +255,7 @@ const Nav = () => {
                 display: "flex",
                 justifyContent: "flex-center",
                 alignItems: "center",
-                paddingLeft: "10px",
+                paddingRight: "15px",
                 postion: "fixed",
                 marginTop: "5px",
               }}
@@ -274,7 +274,7 @@ const Nav = () => {
                     data-icon="material-symbols:clear-night"
                     data-inline="false"
                     style={{
-                      color: "#ccdad8",
+                      color: "#dedede",
                       display: "block",
                       fontSize: 25,
                       height: "100%",
@@ -289,7 +289,7 @@ const Nav = () => {
                     data-icon="ic:baseline-light-mode"
                     data-inline="false"
                     style={{
-                      color: "#001612",
+                      color: "#dedede",
                       display: "block",
                       fontSize: 25,
                       height: "100%",
