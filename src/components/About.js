@@ -32,7 +32,6 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                     lineHeight: "200%",
                   }}
                 >
-                  <br />
                   <span className="wave">{hello}</span>
                   <br />
                   {about}

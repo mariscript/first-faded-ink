@@ -19,12 +19,16 @@
   "services": {
     "icons": [
       {
+        "name": "Tattoos",
+        "class": "fas fa-pen-nib"
+      },
+      {
         "name": "Hair Cut",
         "class": "fas fa-scalpel"
       },
       {
         "name": "Scissor Cut",
-        "class": "fas fa-hand-scissors"
+        "class": "fas fa-cut"
       },
       {
         "name": "Buzz",
@@ -44,7 +48,7 @@
       },
       {
         "name": "Housecalls",
-        "class": "fas fa-chair"
+        "class": "fas fa-warehouse"
       }
     ]
   }

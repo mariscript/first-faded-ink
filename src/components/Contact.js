@@ -79,6 +79,29 @@ const Subject = styled.div`
   }
 `;
 
+const Refer = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  align-items: center;
+
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 10px;
+    .subject {
+      padding: 0 1%;
+    }
+  }
+  ::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+    @media (min-width: 992px) {
+      font-size: 16px;
+    }
+  }
+`;
+
 const Input = styled.input`
   background: #cccccc;
   border-radius: 10px;
@@ -188,6 +211,7 @@ const Contact = () => {
     email: "",
     subject: "",
     number: "",
+    refer: "",
     message: "",
   });
   const [showConfirm, setShowConfirm] = useState(false);
@@ -198,13 +222,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, subject, number, message } = info;
+    const { name, email, subject, number, refer, message } = info;
     const templateParams = {
       from_name: name,
       to_name: "Faded, Ink.",
       email,
       number: number,
       subject: subject,
+      refer: refer,
       message_html: message,
     };
 
@@ -278,10 +303,18 @@ const Contact = () => {
                 required
               />
             </Subject>
+            <Refer>
+              <Input
+                type="text"
+                placeholder="Referred By"
+                className="refer"
+                value={info.refer}
+                onChange={handleChange("refer")}
+                required
+              />
+            </Refer>
             <Message
-              placeholder="Tattoos: approximate placement, size, description.
-               Haircuts: style, beard trim, etc.
-                **Please pick at least one day from the dates available above**"
+              placeholder="Your Inquiry"
               value={info.message}
               onChange={handleChange("message")}
               required
