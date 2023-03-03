@@ -17,11 +17,7 @@
     "image": "myProfile.jpg"
   },
   "services": {
-    "icons": [
-      {
-        "name": "Tattoos",
-        "class": "fas fa-pen-nib"
-      },
+    "hairs": [
       {
         "name": "Hair Cut",
         "class": "fas fa-scalpel"
@@ -49,6 +45,24 @@
       {
         "name": "Housecalls",
         "class": "fas fa-warehouse"
+      }
+    ],
+    "tattoos": [
+      {
+        "name": "Custom Tattoos",
+        "class": "fas fa-pen-nib"
+      },
+      {
+        "name": "Small Cover Ups",
+        "class": "fas fa-fill-drip"
+      },
+      {
+        "name": "Black & White",
+        "class": "fas fa-flag-checkered"
+      },
+      {
+        "name": "Color",
+        "class": "fas fa-fill-drip"
       }
     ]
   }

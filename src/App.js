@@ -64,7 +64,7 @@ class App extends Component {
 
   loadSharedData() {
     $.ajax({
-      url: `portfolio_shared_data.json`,
+      url: `shared_data.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
@@ -94,6 +94,7 @@ class App extends Component {
               data-icon="twemoji-scissors"
               data-inline="false"
               id={window.$haircutsIconId}
+              title="Hair"
             ></span>
           </div>
           <div
@@ -107,6 +108,7 @@ class App extends Component {
               data-icon="twemoji-fountain-pen"
               data-inline="false"
               id={window.$tattoosIconId}
+              title="Tattoos"
             ></span>
           </div>
         </div>
