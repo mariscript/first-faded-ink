@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/first-faded-ink/static/css/main.79ba9520.chunk.css",
-    "main.js": "/first-faded-ink/static/js/main.5f020b17.chunk.js",
-    "main.js.map": "/first-faded-ink/static/js/main.5f020b17.chunk.js.map",
-    "runtime-main.js": "/first-faded-ink/static/js/runtime-main.2bc48175.js",
-    "runtime-main.js.map": "/first-faded-ink/static/js/runtime-main.2bc48175.js.map",
-    "static/css/2.3eb2a443.chunk.css": "/first-faded-ink/static/css/2.3eb2a443.chunk.css",
-    "static/js/2.8a4ee193.chunk.js": "/first-faded-ink/static/js/2.8a4ee193.chunk.js",
-    "static/js/2.8a4ee193.chunk.js.map": "/first-faded-ink/static/js/2.8a4ee193.chunk.js.map",
-    "index.html": "/first-faded-ink/index.html",
-    "precache-manifest.f3486757ec0e7304912f15909f9f78b8.js": "/first-faded-ink/precache-manifest.f3486757ec0e7304912f15909f9f78b8.js",
-    "service-worker.js": "/first-faded-ink/service-worker.js",
-    "static/css/2.3eb2a443.chunk.css.map": "/first-faded-ink/static/css/2.3eb2a443.chunk.css.map",
-    "static/css/main.79ba9520.chunk.css.map": "/first-faded-ink/static/css/main.79ba9520.chunk.css.map",
-    "static/js/2.8a4ee193.chunk.js.LICENSE.txt": "/first-faded-ink/static/js/2.8a4ee193.chunk.js.LICENSE.txt",
-    "static/media/Tattoo_Waiver.pdf": "/first-faded-ink/static/media/Tattoo_Waiver.fb8c9fc7.pdf",
-    "static/media/fadedman.png": "/first-faded-ink/static/media/fadedman.ff21f38d.png",
-    "static/media/logo.jpg": "/first-faded-ink/static/media/logo.3acf6385.jpg"
+    "main.css": "/static/css/main.79ba9520.chunk.css",
+    "main.js": "/static/js/main.dd5fcbfa.chunk.js",
+    "main.js.map": "/static/js/main.dd5fcbfa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3bb07e1c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3bb07e1c.js.map",
+    "static/css/2.3eb2a443.chunk.css": "/static/css/2.3eb2a443.chunk.css",
+    "static/js/2.09f387e1.chunk.js": "/static/js/2.09f387e1.chunk.js",
+    "static/js/2.09f387e1.chunk.js.map": "/static/js/2.09f387e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a6199e09baa6bcfa48b2c07956fc077.js": "/precache-manifest.1a6199e09baa6bcfa48b2c07956fc077.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3eb2a443.chunk.css.map": "/static/css/2.3eb2a443.chunk.css.map",
+    "static/css/main.79ba9520.chunk.css.map": "/static/css/main.79ba9520.chunk.css.map",
+    "static/js/2.09f387e1.chunk.js.LICENSE.txt": "/static/js/2.09f387e1.chunk.js.LICENSE.txt",
+    "static/media/Tattoo_Waiver.pdf": "/static/media/Tattoo_Waiver.fb8c9fc7.pdf",
+    "static/media/fadedman.png": "/static/media/fadedman.ff21f38d.png",
+    "static/media/logo.jpg": "/static/media/logo.3acf6385.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2bc48175.js",
+    "static/js/runtime-main.3bb07e1c.js",
     "static/css/2.3eb2a443.chunk.css",
-    "static/js/2.8a4ee193.chunk.js",
+    "static/js/2.09f387e1.chunk.js",
     "static/css/main.79ba9520.chunk.css",
-    "static/js/main.5f020b17.chunk.js"
+    "static/js/main.dd5fcbfa.chunk.js"
   ]
 }
