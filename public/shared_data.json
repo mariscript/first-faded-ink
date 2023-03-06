@@ -6,12 +6,20 @@
       {
         "name": "instagram",
         "url": "https://www.instagram.com/fadedinknj",
-        "class": "fab fa-instagram"
+        "class": "fab fa-instagram",
+        "hover": "Faded, Ink. Instagram"
       },
       {
         "name": "mail",
         "url": "mailto:fadedinknj@gmail.com",
-        "class": "fas fa-envelope"
+        "class": "fas fa-envelope",
+        "hover": "email Faded, Ink."
+      },
+      {
+        "name": "waiver",
+        "url": "mailto:fadedinknj@gmail.com",
+        "class": "fas fa-file-pdf",
+        "hover": "Tattoo Waiver"
       }
     ],
     "image": "fadedhair.jpg"

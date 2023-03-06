@@ -4,6 +4,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
 import Switch from "react-switch";
+import waiver from "../waiver/Tattoo_Waiver.pdf";
 
 const StyledHeader = styled.header`
   position: relative;
@@ -83,28 +84,28 @@ const Links = styled.ul`
   }
 `;
 
-// const Resume = styled.div`
-//   cursor: pointer;
-//   border: 2px solid #00332a;
-//   border-radius: 25px;
-//   padding: 5px 20px;
-//   display: inline-block;
-//   color: #f3f4f5;
-//   font-size: 16px;
-//   background-color: transparent;
-//   margin-right: 30px;
-//   &:hover,
-//   &:focus,
-//   &:active {
-//     background-color: #8da79f;
-//     color: #00332a;
-//     font-weight: bold;
-//     outline: none;
-//     text-transform: uppercase;
-//     transition: color.2s cubic-bezier(0.3, 0, 0.45, 1),
-//       background-color 0.2s cubic-bezier(0.3, 0, 0.45, 1);
-//   }
-// `;
+const Waiver = styled.div`
+  cursor: pointer;
+  border: 2px solid #dedede;
+  border-radius: 25px;
+  padding: 5px 20px;
+  display: inline-block;
+  color: #f3f4f5;
+  font-size: 16px;
+  background-color: transparent;
+  margin-right: 30px;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #858585;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
+    transition: color.2s cubic-bezier(0.3, 0, 0.45, 1),
+      background-color 0.2s cubic-bezier(0.3, 0, 0.45, 1);
+  }
+`;
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -116,9 +117,9 @@ const Nav = () => {
     setIsHamburger(!isHamburger);
   };
 
-  // const handleResume = () => {
-  //   window.open(resume);
-  // };
+  const handleWaiver = () => {
+    window.open(waiver);
+  };
 
   const handleClose = useCallback(() => {
     setIsOpen(false);
@@ -230,17 +231,17 @@ const Nav = () => {
                 Inquiries
               </Link>
             </li>
-            {/* <Resume onClick={handleResume}>
+            <Waiver onClick={handleWaiver}>
               <a
-                href={resume}
+                href={waiver}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleClose}
               >
                 {" "}
               </a>
-              Resume
-            </Resume> */}
+              Tattoo Waiver
+            </Waiver>
             <hr
               style={{
                 height: "1px",
@@ -255,7 +256,7 @@ const Nav = () => {
                 display: "flex",
                 justifyContent: "flex-center",
                 alignItems: "center",
-                paddingRight: "15px",
+                paddingLeft: "15px",
                 postion: "fixed",
                 marginTop: "5px",
               }}

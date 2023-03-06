@@ -35,7 +35,9 @@
       "description": "Jhon is a full time barber and a part time tattoo artist.",
       "images": [
         "images/portfolio/jhon/p1.jpg",
-        "images/portfolio/jhon/p2.jpg"
+        "images/portfolio/jhon/p2.jpg",
+        "images/portfolio/jhon/p3.jpg",
+        "images/portfolio/jhon/p4.jpg"
       ],
       "url": "https://www.instagram.com/fadedinknj",
       "technologies": [
@@ -55,7 +57,8 @@
       "description": "Bryan is both a tattoo artist and a barber",
       "images": [
         "images/portfolio/bryan/p1.jpg",
-        "images/portfolio/bryan/p2.jpg"
+        "images/portfolio/bryan/p2.jpg",
+        "images/portfolio/bryan/p3.jpg"
       ],
       "url": "https://www.instagram.com/dizon.tattoo",
       "technologies": [
