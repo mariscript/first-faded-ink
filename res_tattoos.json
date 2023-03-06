@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Getting Tatted?",
-    "description": "We are Faded, Ink. - a unique business that combines the art of tattoos and haircuts under one roof.  We're an exclusive, referral-only establishment. If you're referred by one of our friends, family, previous clients, you'll know you're in good hands. If you're interested in getting a tattoo, simply let us know what you're looking for in the form below! Please let us know who referred you, indicate the placement, approximate size, and description of the design you have in mind. Once we have a clear idea of what you want, we'll work with you to find a date and time that works with your schedule. Just select a date from our available dates on the calendar, and we'll contact you.",
+    "description": "We are Faded, Ink. - a unique business that combines the art of tattoos and haircuts under one roof.  We're an exclusive, referral-only establishment. If you're referred by one of our friends, family, previous clients, you'll know you're in good hands. If you're interested in getting a tattoo, simply let us know what you're looking for in the form below! Please let us know who referred you, indicate the placement, approximate size, and description of the design you have in mind. Once we have a clear idea of what you want, we'll work with you to find a date and time that works with your schedule. Just select a date from our available dates on the calendar, and we'll contact you. *Dates very and are subject to change*",
     "section_name": {
       "about": "Faded, Ink.",
       "projects": "Team",
@@ -98,6 +98,14 @@
       "years": "",
       "mainTech": ["April 2023"],
       "technologies": ["April 2", "April 8", "April 9", "April 15", "April 16"]
+    },
+    {
+      "company": "",
+      "title": "Days Available",
+      "icon": "fas fa-calendar-day",
+      "years": "",
+      "mainTech": ["May 2023"],
+      "technologies": ["To be determined"]
     }
   ]
 }
