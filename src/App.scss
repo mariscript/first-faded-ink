@@ -118,12 +118,14 @@ header h1 {
 }
 
 .foto img {
+  border-radius: 2px;
   display: block;
   width: 100%;
 }
 
 .foto div {
   background: #ffffff;
+  border-radius: 3px;
   display: inline-block;
   margin: 0 auto 5% auto;
   padding: 10px 10px 5px;
@@ -342,6 +344,7 @@ header h1 {
 #portfolio {
   background: #9b9b9b;
   padding-bottom: 5%;
+  z-index: 2;
 }
 
 .portfolio-item {
