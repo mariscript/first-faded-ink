@@ -1,0 +1,77 @@
+{
+  "basic_info": {
+    "name": "Faded, Ink.",
+    "titles": ["Choose Your Fate:", "Haircuts", "Tattoos"],
+    "social": [
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/fadedinknj",
+        "class": "fab fa-instagram",
+        "hover": "Faded, Ink. Instagram"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:fadedinknj@gmail.com",
+        "class": "fas fa-envelope",
+        "hover": "email Faded, Ink."
+      },
+      {
+        "name": "waiver",
+        "url": "mailto:fadedinknj@gmail.com",
+        "class": "fas fa-file-pdf",
+        "hover": "Tattoo Waiver"
+      }
+    ],
+    "image": "fadedhair.jpg"
+  },
+  "services": {
+    "hairs": [
+      {
+        "name": "Hair Cut",
+        "class": "fas fa-scalpel"
+      },
+      {
+        "name": "Scissor Cut",
+        "class": "fas fa-cut"
+      },
+      {
+        "name": "Buzz",
+        "class": "fas fa-head-side"
+      },
+      {
+        "name": "Kids Hair Cut",
+        "class": "fas fa-child"
+      },
+      {
+        "name": "Beard Trim",
+        "class": "devicon-handlebars-plain"
+      },
+      {
+        "name": "Haircut & Beard Trim",
+        "class": "fas fa-axe"
+      },
+      {
+        "name": "Housecalls",
+        "class": "fas fa-warehouse"
+      }
+    ],
+    "tattoos": [
+      {
+        "name": "Custom Tattoos",
+        "class": "fas fa-pen-nib"
+      },
+      {
+        "name": "Small Cover Ups",
+        "class": "fas fa-fill-drip"
+      },
+      {
+        "name": "Black & White",
+        "class": "fas fa-flag-checkered"
+      },
+      {
+        "name": "Color",
+        "class": "fas fa-palette"
+      }
+    ]
+  }
+}

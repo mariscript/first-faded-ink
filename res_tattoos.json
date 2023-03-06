@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "description_header": "Getting Tatted?",
+    "description": "We are Faded, Ink. - a unique business that combines the art of tattoos and haircuts under one roof.  We're an exclusive, referral-only establishment. If you're referred by one of our friends, family, previous clients, you'll know you're in good hands. If you're interested in getting a tattoo, simply let us know what you're looking for in the form below! Please let us know who referred you, indicate the placement, approximate size, and description of the design you have in mind. Once we have a clear idea of what you want, we'll work with you to find a date and time that works with your schedule. Just select a date from our available dates on the calendar, and we'll contact you.",
+    "section_name": {
+      "about": "Faded, Ink.",
+      "projects": "Team",
+      "services": "Services",
+      "calendar": "Calendar",
+      "contact": "Contact Us"
+    },
+    "image": "myProfile.jpg"
+  },
+  "projects": [
+    {
+      "title": "Jhon",
+      "startDate": "2018",
+      "description": "Jhon is a full time barber and a part time tattoo artist.",
+      "images": [
+        "images/portfolio/jhon/p1.jpg",
+        "images/portfolio/jhon/p2.jpg",
+        "images/portfolio/jhon/p3.jpg",
+        "images/portfolio/jhon/p4.jpg",
+        "images/portfolio/jhon/p5.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Marison",
+      "startDate": "2020",
+      "description": "Marison is a developer and a part time tattoo artist.",
+      "images": [
+        "images/portfolio/marison/p1.jpg",
+        "images/portfolio/marison/p2.jpg",
+        "images/portfolio/marison/p3.jpg"
+      ],
+      "url": "https://www.instagram.com/atetaughtme",
+      "technologies": [
+        {
+          "class": "fas fa-pen-fancy",
+          "name": "Tattoos"
+        },
+        {
+          "class": "fas fa-desktop",
+          "name": "Developer"
+        }
+      ]
+    },
+    {
+      "title": "Bryan",
+      "startDate": "2015",
+      "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+      "images": [
+        "images/portfolio/bryan/p1.jpg",
+        "images/portfolio/bryan/p2.jpg",
+        "images/portfolio/bryan/p3.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "calendar": [
+    {
+      "company": "",
+      "title": "Days Available",
+      "years": "",
+      "icon": "fas fa-calendar-day",
+      "mainTech": ["March 2023"],
+      "technologies": ["March 18", "March 25", "March 26"]
+    },
+    {
+      "company": "",
+      "title": "Days Available",
+      "icon": "fas fa-calendar-day",
+      "years": "",
+      "mainTech": ["April 2023"],
+      "technologies": ["April 2", "April 8", "April 9", "April 15", "April 16"]
+    }
+  ]
+}
