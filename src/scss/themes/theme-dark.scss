@@ -2,7 +2,7 @@ body[data-theme="dark"] {
   @import "../src/scss/dark-slider.scss";
 
   .slider-tab {
-    background-color: #c1b599;
+    background-color: #6f6f6f;
   }
 
   .title-styles {
@@ -15,7 +15,7 @@ body[data-theme="dark"] {
   }
 
   .slider-image {
-    border: 5px solid #c1b599;
+    border: 5px solid #6f6f6f;
   }
 
   .link-href {
@@ -48,7 +48,7 @@ body[data-theme="dark"] {
       color: #ccdad8;
     }
     .polaroid span {
-      background: #e7dfcc;
+      background: #9b9b9b;
     }
     .card {
       background: #858585;
@@ -106,7 +106,7 @@ body[data-theme="dark"] {
   }
 
   .modal-inside .modal-content {
-    background: #264641;
+    background: #000;
     color: white;
   }
 

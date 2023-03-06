@@ -38,7 +38,8 @@
       "description": "Marison is a developer and a part time tattoo artist.",
       "images": [
         "images/portfolio/marison/p1.jpg",
-        "images/portfolio/marison/p2.jpg"
+        "images/portfolio/marison/p2.jpg",
+        "images/portfolio/marison/p3.jpg"
       ],
       "url": "https://www.instagram.com/atetaughtme",
       "technologies": [
@@ -84,7 +85,7 @@
       "years": "",
       "icon": "fas fa-calendar-day",
       "mainTech": ["March 2023"],
-      "technologies": ["March 11", "March 12"]
+      "technologies": ["March 18", "March 25", "March 26"]
     },
     {
       "company": "",
@@ -92,7 +93,7 @@
       "icon": "fas fa-calendar-day",
       "years": "",
       "mainTech": ["April 2023"],
-      "technologies": ["April 1", "April 2"]
+      "technologies": ["April 2", "April 8", "April 9", "April 15", "April 16"]
     }
   ]
 }

@@ -14,7 +14,7 @@
         "class": "fas fa-envelope"
       }
     ],
-    "image": "myProfile.jpg"
+    "image": "fadedhair.jpg"
   },
   "services": {
     "hairs": [
@@ -62,7 +62,7 @@
       },
       {
         "name": "Color",
-        "class": "fas fa-fill-drip"
+        "class": "fas fa-palette"
       }
     ]
   }

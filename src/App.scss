@@ -87,11 +87,11 @@ header h1 {
 }
 
 .slider-image {
-  border: 5px solid #d7caaa;
+  border: 5px solid #9b9b9b;
 }
 
 .slider-tab {
-  background-color: #d7caaa;
+  background-color: #9b9b9b;
 }
 
 .slider-iconfiy {
@@ -167,15 +167,17 @@ header h1 {
 }
 
 .polaroid img {
+  border-radius: 2px;
   display: block;
   max-width: 200px;
 }
 
 .polaroid span {
   background: #ffffff;
+  border-radius: 2px;
   display: inline-block;
   margin: 55px 75px 30px;
-  padding: 15px 15px 30px;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
