@@ -17,8 +17,8 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
             <div className="polaroid">
               <span style={{ cursor: "auto" }}>
                 <img
-                  height="270px"
-                  width="300px"
+                  height="350px"
+                  width="400px"
                   src={profilepic}
                   alt="Faded Barber"
                 />
@@ -33,7 +33,7 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
                   className="card-body font-trebuchet text-justify ml-3 mr-3"
                   style={{
                     height: "auto",
-                    fontSize: "132%",
+                    fontSize: "150%",
                     lineHeight: "200%",
                   }}
                 >
