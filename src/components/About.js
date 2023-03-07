@@ -18,7 +18,7 @@ const About = ({ sharedBasicInfo, resumeBasicInfo }) => {
               <span style={{ cursor: "auto" }}>
                 <img
                   height="350px"
-                  width="400px"
+                  width="450px"
                   src={profilepic}
                   alt="Faded Barber"
                 />
